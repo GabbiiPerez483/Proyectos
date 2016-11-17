@@ -1,0 +1,3 @@
+﻿Pescador:Gabbi;boga;Horario:Tarde;Devolvió:Si;Kg:52;Fecha Pesca:02/03/2015
+Pescador:Jose;boga;Horario:Noche;Devolvió:No;Kg:54;Fecha Pesca:11/03/2015
+Pescador:Juan;dorado;Horario:Tarde;Devolvió:No;Kg:25;Fecha Pesca:10/03/2015
