@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RegimientoDataSet" targetNamespace="http://tempuri.org/RegimientoDataSet.xsd" xmlns:mstns="http://tempuri.org/RegimientoDataSet.xsd" xmlns="http://tempuri.org/RegimientoDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="RegimientoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RegimientoConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Soldados.My.MySettings.GlobalReference.Default.RegimientoConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vista_localidadesTableAdapter" GeneratorDataComponentClassName="vista_localidadesTableAdapter" Name="vista_localidades" UserDataComponentName="vista_localidadesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RegimientoConnectionString (MySettings)" DbObjectName="Regimiento.dbo.vista_localidades" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IDlocalidad, localidad, cod_postal, IDprovincia, provincia FROM dbo.vista_localidades</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDlocalidad" DataSetColumn="IDlocalidad" />
+              <Mapping SourceColumn="localidad" DataSetColumn="localidad" />
+              <Mapping SourceColumn="cod_postal" DataSetColumn="cod_postal" />
+              <Mapping SourceColumn="IDprovincia" DataSetColumn="IDprovincia" />
+              <Mapping SourceColumn="provincia" DataSetColumn="provincia" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RegimientoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="RegimientoDataSet" msprop:Generator_UserDSName="RegimientoDataSet" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vista_localidades" msprop:Generator_UserTableName="vista_localidades" msprop:Generator_RowDeletedName="vista_localidadesRowDeleted" msprop:Generator_TableClassName="vista_localidadesDataTable" msprop:Generator_RowChangedName="vista_localidadesRowChanged" msprop:Generator_RowClassName="vista_localidadesRow" msprop:Generator_RowChangingName="vista_localidadesRowChanging" msprop:Generator_RowEvArgName="vista_localidadesRowChangeEvent" msprop:Generator_RowEvHandlerName="vista_localidadesRowChangeEventHandler" msprop:Generator_TablePropName="vista_localidades" msprop:Generator_TableVarName="tablevista_localidades" msprop:Generator_RowDeletingName="vista_localidadesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDlocalidad" msprop:Generator_UserColumnName="IDlocalidad" msprop:Generator_ColumnPropNameInRow="IDlocalidad" msprop:Generator_ColumnVarNameInTable="columnIDlocalidad" msprop:Generator_ColumnPropNameInTable="IDlocalidadColumn" type="xs:int" />
+              <xs:element name="localidad" msprop:Generator_UserColumnName="localidad" msprop:Generator_ColumnPropNameInRow="localidad" msprop:Generator_ColumnVarNameInTable="columnlocalidad" msprop:Generator_ColumnPropNameInTable="localidadColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cod_postal" msprop:Generator_UserColumnName="cod_postal" msprop:Generator_ColumnPropNameInRow="cod_postal" msprop:Generator_ColumnVarNameInTable="columncod_postal" msprop:Generator_ColumnPropNameInTable="cod_postalColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDprovincia" msprop:Generator_UserColumnName="IDprovincia" msprop:Generator_ColumnPropNameInRow="IDprovincia" msprop:Generator_ColumnVarNameInTable="columnIDprovincia" msprop:Generator_ColumnPropNameInTable="IDprovinciaColumn" type="xs:int" />
+              <xs:element name="provincia" msprop:Generator_UserColumnName="provincia" msprop:Generator_ColumnPropNameInRow="provincia" msprop:Generator_ColumnVarNameInTable="columnprovincia" msprop:Generator_ColumnPropNameInTable="provinciaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vista_localidades" />
+      <xs:field xpath="mstns:IDlocalidad" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,45 @@
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\bin\Debug\Soldados.exe
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\bin\Debug\Soldados.pdb
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\bin\Debug\Soldados.xml
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\obj\Debug\Soldados.Form1.resources
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\obj\Debug\Soldados.Resources.resources
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\obj\Debug\Soldados.vbproj.GenerateResource.Cache
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\obj\Debug\Soldados.exe
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\obj\Debug\Soldados.xml
+C:\Users\rsimiani\AppData\Local\Temporary Projects\Soldados\obj\Debug\Soldados.pdb
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.exe
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.xml
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.pdb
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\bin\Debug\Soldados.exe
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\bin\Debug\Soldados.pdb
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\bin\Debug\Soldados.xml
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.Form1.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.Form2.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.Resources.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.vbproj.GenerateResource.Cache
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_ListadoProvincias.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_ListadoLocalidades.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_altalocalidad.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_altasoldados.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.Frm_soldados.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_misiones.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_logueo.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_menu.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_usuarios.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_alta_usuario.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_cambiar_cont_admin.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.frm_cambiar_cont_usuario.resources
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\RdlCompile.cache
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\RdlCompile.compiled
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\bin\Debug\Soldados.exe.config
+C:\Users\rsimiani\Documents\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.Reporte_local.resources
+C:\Users\Roy33\Desktop\Facu\Visual Studio 2008\Projects\Soldados\Soldados\bin\Debug\Soldados.exe.config
+C:\Users\Roy33\Desktop\Facu\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.exe
+C:\Users\Roy33\Desktop\Facu\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.xml
+C:\Users\Roy33\Desktop\Facu\Visual Studio 2008\Projects\Soldados\Soldados\obj\Debug\Soldados.pdb
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Soldados\Soldados\bin\Debug\Soldados.exe.config
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Soldados\Soldados\obj\Debug\Soldados.exe
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Soldados\Soldados\obj\Debug\Soldados.xml
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Soldados\Soldados\obj\Debug\Soldados.pdb
