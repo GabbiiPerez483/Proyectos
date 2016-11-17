@@ -1,0 +1,16 @@
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb
+E:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
+E:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
+E:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.pdb
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.xml
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ResolveAssemblyReference.cache
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Form1.resources
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Frm_AltaVenta.resources
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Frm_Listado.resources
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Frm_Menu.resources
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Resources.resources
+F:\Facu\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbproj.GenerateResource.Cache
