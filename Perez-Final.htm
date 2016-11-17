@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Página sin título</title>
+    <style>
+        .titulo {font: bold 19px Verdana; color:#180a99}
+        .texto2 {font-family:Verdana; font-size:11px; }
+        .texto2gris {font-family: verdana; font-size:11px; background:#a3a3a3;}
+        .turista_libre{ background-color:#0099ff; height:30px; width:30px; color:#ffffff; text-align:center;}
+        .turista_reservado{ background-color:#3366ff; height:30px; width:30px; color:#ffffff; text-align:center;}
+        .ejecutiva_libre{ background-color:#ff9900; height:30px; width:30px; color:#ffffff; text-align:center;}
+        .ejecutiva_reservado{ background-color:#cc6600; height:30px; width:30px; color:#ffffff; text-align:center;}
+        .reservado{ background-color: #ff0000; height:30px; width:30px; color:#ffffff; text-align:center;}
+        body {background:url(sky_team.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+        #cabecera{height:10px;}
+        #cabecera h1{text-align:left;}
+        #cabecera h2{font:bold 10px verdana; color:#ffffff; text-align:right; position:absolute; top:10px; right:10px;}
+        #logo_pie h1{position:absolute; bottom:10px; left:10px;}
+        #logo_pie h1{font:bold 10px verdana; color:#000; text-align:right; position:absolute; bottom:10px; left:10px;}
+        #logo_pie h2{position:absolute; bottom:0px; right:1px; margin-bottom:1px;}
+        #menu{ height:30px; background:url(boton-menu3.jpg);}
+        #fondomenu ul li a {  background:url(boton-menu3.jpg); width:185px; height:30px; margin-left:1px; float:left; text-align:center; font-size:15px; color:#ffffff; line-height:30px; text-decoration:none; display:block; font-family: verdana;}    
+        #fondomenu ul{margin:0px; padding:0px; list-style:none;}
+        #fondomenu ul li a:hover{background:url(boton-menu.jpg);color:#000000;}
+        #cuerpo{border:0; height:420px; width:auto; margin-left: 200px; margin-right:200px;}
+        
+    </style>
+    <script language="javascript">
+        function jf_seleccionado(num)
+        {
+             var cont = parseInt(document.getElementById("contador").value);
+             if(cont==2)
+             {
+                alert("Ya reservó los asientos permitidos!");
+                if(document.getElementById(num).value = "reservado" )
+                {
+                    if(num.substring(0,1)== "T")
+                    {
+                         document.getElementById(num + "a").className="turista_libre";
+                         document.getElementById(num).value="libre";
+                         cont= cont -1;
+                         document.getElementById("contador").value= cont;
+                    }
+               else
+                 {
+                     document.getElementById(num + "a").className="ejecutiva_libre";
+                     document.getElementById(num).value="libre";
+                     cont= cont -1;
+                     document.getElementById("contador").value= cont;              
+                 }
+               }
+            return
+            } 
+            
+            if(document.getElementById(num).value = "libre") 
+            {
+                document.getElementById(num + "a").className= "reservado";
+                document.getElementById(num).value="reservado";
+                cont=cont+1;
+                document.getElementById("contador").value=cont;
+            } 
+            else
+            {
+                if(num.substring(0,1)== "T")
+                {
+                     document.getElementById(num + "a").className="turista_libre";
+                     document.getElementById(num).value="libre";
+                     cont= cont -1;
+                     document.getElementById("contador").value= cont;
+                }
+                else
+                {
+                     document.getElementById(num + "a").className="ejecutiva_libre";
+                     document.getElementById(num).value="libre";
+                     cont= cont -1;
+                     document.getElementById("contador").value= cont;
+                }
+            } 
+        }
+       function jf_ocup()
+       {
+            alert("Asiento ya reservado");
+       }
+       
+    </script>
+</head>
+<body>
+<div id="cabecera" >
+<!--<h1><img src="china_airlines_niou1.png" /></h1>-->
+<h2><img src="ico_region_ar.gif"/>  ARGENTINA | 贵宾室 | ENGLISH | ESPAÑOL</h2>
+</div>
+<br />
+
+<div id="menu">
+<div id="fondomenu">
+<ul>
+    <li><a href="#">Menú</a></li>
+    <li><a href="#">Reservar tu vuelo</a></li>
+    <li><a href="#">Situación del vuelo</a></li>
+    <li><a href="#">Facturación</a></li>
+    <li><a href="#">Mis Viajes</a></li>
+    <li><a href="#">Contacto</a></li> 
+    <li><a href="#">Skyteam</a></li>
+</ul>
+</div>
+</div>
+<br />
+<center>
+<div style="background:White Center" id="cuerpo">
+
+<table style="background-color: White;" border="0" width="650">
+<tr>
+<td class="titulo" colspan="2">Compra de Pasajes - Paso 3 de 5</td>
+</tr>
+<tr>
+<td class="texto2" width="150">Apellido y Nombre</td>
+<td><input name="ayn" type="text" class="texto2gris" maxlength="30" size="25" value="Perez, Gabriela Andrea" readonly /></td>
+</tr>
+<tr>
+<td class="texto2">Destino</td>
+<td><input name="destino" type="text" class="texto2gris" maxlength="30" size="25" value="Seúl, Corea (KOR)" readonly /></td>
+</tr>
+<tr>
+<td class="texto2">Modelo Avión</td>
+<td><input name="mod" type="text" class="texto2gris" maxlength="30" size="25" value="Sukhoi Superjet 100-95B" readonly/></td>
+</tr>
+<tr>
+<td class="texto2">Hora Partida</td>
+<td><input name="horap" type="text" class="texto2gris" maxlength="10" size="8" value="19:30hs" readonly /></td>
+</tr>
+<tr>
+<td class="texto2">Cantidad Pasajeros</td>
+<td><input name="cantp" type="text" class="texto2gris" maxlength="3" size="8" value="2" readonly/></td>
+<td width="100" class="texto2">Importe Total</td>
+<td width="150"><input name="imptot"type="text" class="texto2gris" maxlength="3" size="8" value="15,750.45" readonly/></td>
+</tr>
+</table>
+<hr />
+<br />
+<table width="600" border="0">
+<tr><td class="titulo" align="char">Seleccione los asientos</td></tr>
+<tr><td class="texto2" align="char">Haga click en los asientos a reservar.</td></tr>
+</table>
+<br />
+<table width="545px" border="1">
+<tr align="center">
+    <td id="E1a" class="ejecutiva_libre" onclick="jf_seleccionado('E1');">1<input type="hidden" id="E1" value="libre"/></td>
+    <td class="ejecutiva_reservado" onclick="jf_ocup();">5</td>
+    <td class="ejecutiva_reservado" onclick="jf_ocup();">9</td>
+    <td><input type="hidden" id="contador" value="0" /></td>
+    <td class="turista_reservado" onclick="jf_ocup();">13</td>
+    <td class="turista_reservado" onclick="jf_ocup();">17</td>
+    <td class="turista_reservado" onclick="jf_ocup();">21</td>
+    <td id="T25a" class="turista_libre" onclick="jf_seleccionado('T25');">25<input type="hidden" id="T25" value="libre"/></td>
+    <td class="turista_reservado" onclick="jf_ocup();">29</td>
+    <td class="turista_reservado" onclick="jf_ocup();">33</td>
+    <td class="turista_reservado" onclick="jf_ocup();">37</td>
+    <td class="turista_reservado" onclick="jf_ocup();">41</td>
+    <td class="turista_reservado" onclick="jf_ocup();">45</td>
+    <td id="T49a" class="turista_libre" onclick="jf_seleccionado('T49');">49<input type="hidden" id="T49" value="libre"/></td>
+    <td id="T53a" class="turista_libre" onclick="jf_seleccionado('T53');">53<input type="hidden" id="T53" value="libre"/></td>
+</tr>
+    
+<tr>
+    <td id="E2a" class="ejecutiva_libre" onclick="jf_seleccionado('E2');">2<input type="hidden" id="E2" value="libre"/></td>
+    <td class="ejecutiva_reservado" onclick="jf_ocup();">6</td>
+    <td class="ejecutiva_reservado" onclick="jf_ocup();">10</td>
+    <td></td>
+    <td class="turista_reservado" onclick="jf_ocup();">14</td>
+    <td class="turista_reservado" onclick="jf_ocup();">18</td>
+    <td id="T22a" class="turista_libre" onclick="jf_seleccionado('T22');">22<input type="hidden" id="T22" value="libre"/></td>
+    <td id="T26a" class="turista_libre" onclick="jf_seleccionado('T26');">26<input type="hidden" id="T26" value="libre"/></td>
+    <td class="turista_reservado" onclick="jf_ocup();">30</td>
+    <td id="T34a" class="turista_libre" onclick="jf_seleccionado('T34');">34<input type="hidden" id="T34" value="libre"/></td>
+    <td class="turista_reservado" onclick="jf_ocup();">38</td>
+    <td class="turista_reservado" onclick="jf_ocup();">42</td>
+    <td id="T46a" class="turista_libre" onclick="jf_seleccionado('T46');">46<input type="hidden" id="T46" value="libre"/></td>
+    <td id="T50a" class="turista_libre" onclick="jf_seleccionado('T50');">50<input type="hidden" id="T50" value="libre"/></td>
+    <td id="T54a" class="turista_libre" onclick="jf_seleccionado('T54');">54<input type="hidden" id="T54" value="libre"/></td>
+</tr>
+
+<tr></tr>
+
+<tr>
+    <td id="E3a" class="ejecutiva_libre" onclick="jf_seleccionado('E3');">3<input type="hidden" id="E3" value="libre"/></td>
+    <td id="E7a" class="ejecutiva_libre" onclick="jf_seleccionado('E7');">7<input type="hidden" id="E7" value="libre"/></td>
+    <td class="ejecutiva_reservado" onclick="jf_ocup();">11</td>
+    <td></td>
+    <td class="turista_reservado" onclick="jf_ocup();">15</td>
+    <td class="turista_reservado" onclick="jf_ocup();">19</td>
+    <td class="turista_reservado" onclick="jf_ocup();">23</td>
+    <td class="turista_reservado" onclick="jf_ocup();">27</td>
+    <td class="turista_reservado" onclick="jf_ocup();">31</td>
+    <td class="turista_reservado" onclick="jf_ocup();">35</td>
+    <td class="turista_reservado" onclick="jf_ocup();">39</td>
+    <td id="T43a" class="turista_libre" onclick="jf_seleccionado('T43');">43<input type="hidden" id="T43" value="libre"/></td>
+    <td id="T47a" class="turista_libre" onclick="jf_seleccionado('T47');">47<input type="hidden" id="T47" value="libre"/></td>
+    <td id="T51a" class="turista_libre" onclick="jf_seleccionado('T51');">51<input type="hidden" id="T51" value="libre"/></td>
+    <td id="T55a" class="turista_libre" onclick="jf_seleccionado('T55');">55<input type="hidden" id="T55" value="libre"/></td>
+</tr>
+
+<tr>
+    <td id="E4a" class="ejecutiva_libre" onclick="jf_seleccionado('E4');">4<input type="hidden" id="E4" value="libre"/></td>
+    <td class="ejecutiva_reservado" onclick="jf_ocup();">8</td>
+    <td class="ejecutiva_reservado" onclick="jf_ocup();">12</td>
+    <td></td>
+    <td class="turista_reservado" onclick="jf_ocup();">16</td>
+    <td class="turista_reservado" onclick="jf_ocup();">20</td>
+    <td class="turista_reservado" onclick="jf_ocup();">24</td>
+    <td class="turista_reservado" onclick="jf_ocup();">28</td>
+    <td class="turista_reservado" onclick="jf_ocup();">32</td>
+    <td class="turista_reservado" onclick="jf_ocup();">36</td>
+    <td class="turista_reservado" onclick="jf_ocup();">40</td>
+    <td id="T44a" class="turista_libre" onclick="jf_seleccionado('T44');">44<input type="hidden" id="T44" value="libre"/></td>
+    <td id="T48a" class="turista_libre" onclick="jf_seleccionado('T48');">48<input type="hidden" id="T48" value="libre"/></td>
+    <td id="T52a" class="turista_libre" onclick="jf_seleccionado('T52');">52<input type="hidden" id="T52" value="libre"/></td>
+    <td id="T56a" class="turista_libre" onclick="jf_seleccionado('T56');">56<input type="hidden" id="T56" value="libre"/></td>
+</tr>
+</table>
+<br />
+</div>
+</center>
+<br />
+<div id="logo_pie">
+<!--<h1>ARGENTINA | 贵宾室 | ENGLISH | ESPAÑOL</h1>
+<h2><img src="sky_team_logo.png" height="70px" width="70px" /></h2>-->
+<h1><IMG SRC="china_airlines_azul.png" /></h1>
+</div>
+</body>
+</html>
