@@ -1,0 +1,25 @@
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\bin\Debug\Parcial2_PerezGabriela.exe
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\bin\Debug\Parcial2_PerezGabriela.pdb
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\bin\Debug\Parcial2_PerezGabriela.xml
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.Resources.resources
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.vbproj.GenerateResource.Cache
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.exe
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.xml
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.pdb
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.ListProd.resources
+C:\Users\gaperez\AppData\Local\Temporary Projects\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.Menu.resources
+C:\Users\gaperez\Documents\Visual Studio 2008\Projects\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.exe
+C:\Users\gaperez\Documents\Visual Studio 2008\Projects\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.xml
+C:\Users\gaperez\Documents\Visual Studio 2008\Projects\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.pdb
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.exe
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.xml
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.pdb
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\bin\Debug\Parcial2_PerezGabriela.exe
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\bin\Debug\Parcial2_PerezGabriela.pdb
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\bin\Debug\Parcial2_PerezGabriela.xml
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.ListProd.resources
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.Menu.resources
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.Resources.resources
+C:\Users\Koara-Chan\Documents\Facu\2º - Primer Cuatrimestre\Prog. III\Parcial2_PerezGabriela\Parcial2_PerezGabriela\obj\Debug\Parcial2_PerezGabriela.vbproj.GenerateResource.Cache
